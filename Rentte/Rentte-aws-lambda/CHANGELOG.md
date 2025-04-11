@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Shivambembey98/sample-semantic-release/compare/v1.0.0...v1.0.1) (2025-04-11)
+
+
+### Bug Fixes
+
+* .releaserc file for minimal semantic configuration ([a0e08bd](https://github.com/Shivambembey98/sample-semantic-release/commit/a0e08bd04fee1967b60b70dbe701d95f064738ce))
+
 # 1.0.0 (2025-04-11)
 
 
