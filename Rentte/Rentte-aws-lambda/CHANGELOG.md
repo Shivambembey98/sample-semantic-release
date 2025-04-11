@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Shivambembey98/sample-semantic-release/compare/v1.0.1...v1.1.0) (2025-04-11)
+
+
+### Features
+
+* Create validate-pr.yml ([c0ee28b](https://github.com/Shivambembey98/sample-semantic-release/commit/c0ee28b31e57ea670d50cd465663c1eac1a6c78d))
+
 ## [1.0.1](https://github.com/Shivambembey98/sample-semantic-release/compare/v1.0.0...v1.0.1) (2025-04-11)
 
 
