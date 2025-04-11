@@ -3,26 +3,27 @@ name: Release
 on:
   push:
     branches:
-      - main
+      - main  # or your release branch
 
 jobs:
   release:
-    name: Semantic Release
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 18  # or whatever you're using
 
-      - name: Install Dependencies
+      - name: Install dependencies
+        working-directory: Rentte/Rentte-aws-lambda
         run: npm ci
 
-      - name: Run Semantic Release
+      - name: Semantic Release
+        working-directory: Rentte/Rentte-aws-lambda
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
