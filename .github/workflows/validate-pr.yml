@@ -2,7 +2,9 @@ name: "Validate Semantic PR"
 on:
   pull_request:
     types: [opened, edited, synchronize, reopened]
-
+  push:
+    branches:
+      - main  
 jobs:
   semantic:
     runs-on: ubuntu-latest
