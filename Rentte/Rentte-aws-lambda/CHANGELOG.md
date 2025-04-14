@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Shivambembey98/sample-semantic-release/compare/v1.2.0...v1.3.0) (2025-04-14)
+
+
+### Features
+
+* Merge pull request [#5](https://github.com/Shivambembey98/sample-semantic-release/issues/5) from Shivambembey98/develop ([0d1fe46](https://github.com/Shivambembey98/sample-semantic-release/commit/0d1fe46b4f2952486a6e3eaa8c6f98333b0c3a93))
+
 # [1.2.0](https://github.com/Shivambembey98/sample-semantic-release/compare/v1.1.0...v1.2.0) (2025-04-14)
 
 
