@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Shivambembey98/sample-semantic-release/compare/v1.1.0...v1.2.0) (2025-04-14)
+
+
+### Features
+
+* Create xyz.yml ([5fd2201](https://github.com/Shivambembey98/sample-semantic-release/commit/5fd2201b4c2590ad0b7860d5ca26024379c3f1a4))
+
 # [1.1.0](https://github.com/Shivambembey98/sample-semantic-release/compare/v1.0.1...v1.1.0) (2025-04-11)
 
 
