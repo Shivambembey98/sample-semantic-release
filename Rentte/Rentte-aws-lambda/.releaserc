@@ -1,26 +1,15 @@
 {
-   "branches": [
-    {
-      "name": "main"
-    },
-    {
-      "name": "develop",
-      "prerelease": true
-    },
-    {
-      "name": "feat/*",
-      "prerelease": true
-    },
-    {
-      "name": "fix/*",
-      "prerelease": true
-    }
+  "branches": [
+    { "name": "main" },
+    { "name": "develop", "prerelease": true },
+    { "name": "feat/*", "prerelease": true },
+    { "name": "fix/*", "prerelease": true }
   ],
-  
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
       {
+        "preset": "conventionalcommits",  
         "releaseRules": [
           { "type": "feat", "release": "minor" },
           { "type": "fix", "release": "patch" },
@@ -30,7 +19,7 @@
           { "type": "refactor", "release": false },
           { "type": "perf", "release": "patch" },
           { "type": "test", "release": false },
-          { "type": "BREAKING CHANGE", "release": "major" }
+          { "breaking": true, "release": "major" }
         ],
         "parserOpts": {
           "noteKeywords": ["BREAKING CHANGE"]
@@ -41,6 +30,4 @@
     "@semantic-release/changelog",
     "@semantic-release/github"
   ]
-
 }
-
