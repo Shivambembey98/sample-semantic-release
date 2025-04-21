@@ -1,3 +1,13 @@
+# [3.0.0](https://github.com/Shivambembey98/sample-semantic-release/compare/v2.0.0...v3.0.0) (2025-04-21)
+
+
+* feat!: testing brkchange ([b8b956b](https://github.com/Shivambembey98/sample-semantic-release/commit/b8b956b9840299c745b365e3f2830d5ebbcc926d))
+
+
+### BREAKING CHANGES
+
+* something changed
+
 # [2.0.0](https://github.com/Shivambembey98/sample-semantic-release/compare/v1.6.0...v2.0.0) (2025-04-21)
 
 
