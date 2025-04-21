@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main  
+      - develop
 jobs:
   semantic:
     runs-on: ubuntu-latest
