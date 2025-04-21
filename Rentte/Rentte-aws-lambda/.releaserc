@@ -19,7 +19,8 @@
           { "type": "refactor", "release": false },
           { "type": "perf", "release": "patch" },
           { "type": "test", "release": false },
-          { "breaking": true, "release": "major" }
+          { "breaking": true, "release": "major" },
+          { "type": "feat", "breaking": true, "release": "major" }
         ],
         "parserOpts": {
           "noteKeywords": ["BREAKING CHANGE"]
