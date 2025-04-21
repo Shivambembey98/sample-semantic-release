@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/Shivambembey98/sample-semantic-release/compare/v1.5.0...v1.6.0) (2025-04-21)
+
+
+### Features
+
+* remove abc.yml  BREAKING CHANGE: deleting abc.yml ([0b459a9](https://github.com/Shivambembey98/sample-semantic-release/commit/0b459a979d8b9764df62f35411f090d9939beeac))
+
 # [1.5.0](https://github.com/Shivambembey98/sample-semantic-release/compare/v1.4.0...v1.5.0) (2025-04-21)
 
 
