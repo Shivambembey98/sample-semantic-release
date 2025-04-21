@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/Shivambembey98/sample-semantic-release/compare/v1.6.0...v2.0.0) (2025-04-21)
+
+
+* feat!: testing breaking change from github ui  BREAKING CHANGE: something changed ([ca996ff](https://github.com/Shivambembey98/sample-semantic-release/commit/ca996ff04d1c7dc484e448b73e8431d4b314826c))
+
+
+### BREAKING CHANGES
+
+* something changed
+
 # [1.6.0](https://github.com/Shivambembey98/sample-semantic-release/compare/v1.5.0...v1.6.0) (2025-04-21)
 
 
