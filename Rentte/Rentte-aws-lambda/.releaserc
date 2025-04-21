@@ -29,7 +29,8 @@
           { "type": "style", "release": false },
           { "type": "refactor", "release": false },
           { "type": "perf", "release": "patch" },
-          { "type": "test", "release": false }
+          { "type": "test", "release": false },
+          { "breaking": true, "release": "major" }
         ],
         "parserOpts": {
           "noteKeywords": ["BREAKING CHANGE"]
